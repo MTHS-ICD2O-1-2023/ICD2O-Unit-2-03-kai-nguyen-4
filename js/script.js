@@ -4,7 +4,7 @@
 // Created on: Mar 2024
 // This file contains the JS functions for index.html
 function enterClicked() {
-  const firstName = document.getElementById("first-name").value
-  const userAge = parseInt(document.getElementById("age-entered").value)
-  document.getElementById("answer").innerHTML = "Your info is: " + firstName + ", age " + userAge + "."
+  const streetName = document.getElementById("street-name").value
+  const userNumber = parseInt(document.getElementById("number-entered").value)
+  document.getElementById("answer").innerHTML = "Your info is: " + userNumber + ", on " + streetName + "."
 }
